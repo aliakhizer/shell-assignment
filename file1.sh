@@ -15,6 +15,7 @@ usage() {
     exit 1
 }
 
+echo "hello"
 
 while getopts ":p:to:r:?" opt; do
     case $opt in
@@ -57,6 +58,7 @@ else
 fi
 wget -O "$downloadAt" "https://picsum.photos/$resolution"
    
+  
 
 
 
