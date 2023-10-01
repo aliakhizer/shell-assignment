@@ -15,7 +15,7 @@ usage() {
     exit 1
 }
 
-echo "hello"
+echo "hello sdjjkn"
 
 while getopts ":p:to:r:?" opt; do
     case $opt in
